@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chot4g6lmrjwf"
-path="res://.godot/imported/map_tile.png-b28485bf0a88dcfb0a41331a438debb7.ctex"
+uid="uid://cumwpt2nkwp3d"
+path="res://.godot/imported/Health bar.png-d8152f324d3dd21adc5e62f3b24f8506.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/map_tile.png"
-dest_files=["res://.godot/imported/map_tile.png-b28485bf0a88dcfb0a41331a438debb7.ctex"]
+source_file="res://Assets/hud/Health bar.png"
+dest_files=["res://.godot/imported/Health bar.png-d8152f324d3dd21adc5e62f3b24f8506.ctex"]
 
 [params]
 

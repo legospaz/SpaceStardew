@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dir5u7j8qrrem"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_yndhy"]
-[ext_resource type="Texture2D" uid="uid://71jryl2huykv" path="res://icon.svg" id="2_mvlmb"]
+[ext_resource type="Script" path="res://Data/Player/player.gd" id="1_yndhy"]
+[ext_resource type="Texture2D" uid="uid://71jryl2huykv" path="res://Assets/icon.svg" id="2_mvlmb"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8kod0"]
 animations = [{
@@ -19,6 +19,7 @@ size = Vector2(16, 32)
 
 [node name="Player" type="Area2D"]
 script = ExtResource("1_yndhy")
+speed = 200
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
