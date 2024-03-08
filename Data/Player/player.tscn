@@ -17,7 +17,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ak8q7"]
 size = Vector2(16, 32)
 
-[node name="Player" type="Area2D"]
+[node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_yndhy")
 speed = 200
 metadata/_edit_group_ = true
@@ -29,3 +29,11 @@ sprite_frames = SubResource("SpriteFrames_8kod0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_ak8q7")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.05
+drag_right_margin = 0.05
+editor_draw_limits = true
+editor_draw_drag_margin = true
