@@ -1,18 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dfhmuqjgur1mg"]
-
-[sub_resource type="GDScript" id="GDScript_6ylob"]
-script/source = "extends CanvasLayer
-var barSize = Vector2(4,36)
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-"
+[gd_scene load_steps=5 format=3 uid="uid://dfhmuqjgur1mg"]
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_vq4b6"]
 size = Vector2(4, 36)
@@ -27,7 +13,6 @@ size = Vector2(4, 36)
 size = Vector2(4, 36)
 
 [node name="hud" type="CanvasLayer"]
-script = SubResource("GDScript_6ylob")
 
 [node name="health_bar" type="TextureProgressBar" parent="."]
 layout_direction = 2

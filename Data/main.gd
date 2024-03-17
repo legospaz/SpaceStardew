@@ -1,9 +1,9 @@
-extends CanvasLayer
+extends Node2D
 
 
-# Called when the node enters the scene tree for the first time.
+@export var growthSpeed = 10
 func _ready():
-	pass # Replace with function body.
+	$GrowthTimer.set_wait_time(growthSpeed)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
