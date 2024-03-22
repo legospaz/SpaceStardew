@@ -1,3 +1,13 @@
 # Godot 4+ specific ignores
 .godot/
 *.translation
+SpaceStardew Unity/Library/PackageCache
+SpaceStardew Unity/Library/ShaderCache
+SpaceStardew Unity/Library/StateCache
+SpaceStardew Unity/Library/BurstCache
+SpaceStardew Unity/Library/TempArtifacts
+SpaceStardew Unity/Temp
+SpaceStardew Unity/Logs
+
+
+
